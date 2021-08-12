@@ -1,37 +1,48 @@
 /* css for first-web-app */
-main {
-    background: #87CEFA;
-    padding: 10%
-  }
-  
-  .uppercontainer {
-    display: flex;
-    flex-direction: row;
-    max-height: 60%
-    margin: auto;
-    justify-content: space-between;
-  }
-  
-  .bal {
-    width: 10%;
-    background:white;
-  }
-  
-  #balra {
-    height: 100%;
-  }
-  
-  .jobb {
-    width: 10%;
-    background: white;
-   }
-  
-  #jobbra {
-    height: 100%;
-    transform: rotate(0.5turn);
-  }
-  
-  img {
-    max-width: 100%;
+.container{
+    width: 920px;
     height: auto;
-  }
+    margin: auto;
+}
+
+.header{
+display: flex;    
+justify-content: space-between;
+position: relative;
+align-items: center;
+gap: 15px;
+width:950px;
+margin:auto; 
+background: #fbfcff;
+
+box-shadow: 0px 5px 7px 2px grey;
+}
+
+#mainPic{
+width: 780px;
+padding:0px;
+margin:auto;
+display: block;
+position: relative;
+}
+
+.button{
+position: absolute;
+margin: auto;
+display: flex;
+}
+
+#button1{
+left: 3%;
+}
+
+#button2{
+transform: rotate(180deg);
+right: 3%;
+}
+
+.button:hover {
+background: #ffffff;
+opacity: 0.4;
+transition: 0.5s;
+}
