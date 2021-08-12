@@ -3,7 +3,6 @@
     width: 920px;
     height: auto;
     margin: auto;
-    vertical-align: middle;
 }
 
 .header{
@@ -47,3 +46,21 @@ background: #ffffff;
 opacity: 0.4;
 transition: 0.5s;
 }
+
+.parent {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .parent img {
+    vertical-align: middle;
+  }
+  .parent .text {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);/* Fallback color */
+    background: rgba(0, 0, 0, 0.5);/* Black background with opacity */
+    color: #ffffff;
+    width: 100%;
+    padding: 20px;
+  }
