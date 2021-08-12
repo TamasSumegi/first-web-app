@@ -1,1 +1,38 @@
 /* css for first-web-app */
+main {
+    background: #87CEFA;
+    padding: 5%
+  }
+  
+  .uppercontainer {
+    display: flex;
+    flex-direction: row;
+    max-height: 60%
+    margin: auto;
+    margin-top: 10%;
+    justify-content: space-between;
+  }
+  
+  .bal {
+    width: 10%;
+    background:white;
+  }
+  
+  #balra {
+    height: 100%;
+  }
+  
+  .jobb {
+    width: 10%;
+    background: white;
+   }
+  
+  #jobbra {
+    height: 100%;
+    transform: rotate(0.5turn);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
