@@ -1,5 +1,5 @@
 /* javascript for first-web-app*/
-const imagesdata =[
+const imagesdata = [
 {photo:"images/raspberries-3454504_640.jpg", title:"Málna", description:"Szép, érett málnaszemek"},
 {photo:"cows-2641195_640.jpg", title:"Tehenek", description:"Tehenek az alpesi legelőn"},
 {photo:"animal-3729821_640.jpg", title:"Őz", description:"Kíváncsi őzike"},
