@@ -16,7 +16,7 @@ const imagesdata = [
 ];
 
 var currentPhoto = 0;
-$('#photo').attr('src', imagesData[currentPhoto].photo);
-$("#photoTitle").text(imagesData[currentPhoto].title);
-$("#phototext").text(imagesData[currentPhoto].description);
+$('#photo').attr('src', imagesdata[currentPhoto].photo);
+$("#photoTitle").text(imagesdata[currentPhoto].title);
+$("#phototext").text(imagesdata[currentPhoto].description);
 
