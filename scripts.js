@@ -76,3 +76,6 @@ const data12 = {
     description: 'Fehér fejkű halászsas (rétisas)'
 };
 
+$('#photo').attr('src', data1.photo);
+$('#photoTitle').attr('src', data1.title);
+$('#phototext').attr('src', data1.description);
