@@ -1,5 +1,5 @@
 /* javascript for first-web-app*/
-const data0 = {
+let data0 = {
   photo: 'images/raspberries-3454504_640.jpg',
   title: 'Málna',
   description: 'Szép, érett málnaszemek'
@@ -76,6 +76,6 @@ const data12 = {
     description: 'Fehér fejkű halászsas (rétisas)'
 };
 
-$('#photo').attr('src', data1.photo);
-$('#photoTitle').attr('src', data1.title);
-$('#phototext').attr('src', data1.description);
+$('#photo').attr('src', data0.photo);
+$('#photoTitle').attr(data0.title);
+$('#phototext').attr(data0.description);
