@@ -78,4 +78,4 @@ const data12 = {
 
 $('#photo').attr('src', data0.photo);
 $("#photoTitle").text(data0.title);
-$('#phototext').attr(data0.description);
+$("#phototext").text(data0.description);
