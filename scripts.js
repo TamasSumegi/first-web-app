@@ -77,5 +77,5 @@ const data12 = {
 };
 
 $('#photo').attr('src', data0.photo);
-$('#photoTitle').attr(data0.title);
+$("#photoTitle").text(data0.title);
 $('#phototext').attr(data0.description);
