@@ -28,7 +28,7 @@ position: relative;
 
 .button{
 position: absolute;
-margin: auto;
+/*margin: auto;*/
 display: flex;
 }
 
