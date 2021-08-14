@@ -1,5 +1,5 @@
 /* javascript for first-web-app*/
-let imagesdata = [
+const imagesdata = [
 {photo:"images/raspberries-3454504_640.jpg", title:"Málna", description:"Szép, érett málnaszemek"},
 {photo:"cows-2641195_640.jpg", title:"Tehenek", description:"Tehenek az alpesi legelőn"},
 {photo:"animal-3729821_640.jpg", title:"Őz", description:"Kíváncsi őzike"},
@@ -15,7 +15,7 @@ let imagesdata = [
 {photo:"bald-eagle-6481346_640.jpg", title:"Sas", description:"Fehér fejkű halászsas (rétisas)"}
 ];
 
-var currentPhoto = 1;
+var currentPhoto = 0;
 $('#photo').attr('src', imagesdata[currentPhoto].photo);
 $("#photoTitle").text(imagesdata[currentPhoto].title);
 $("#phototext").text(imagesdata[currentPhoto].description);
