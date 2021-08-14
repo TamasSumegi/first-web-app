@@ -21,14 +21,14 @@ box-shadow: 0px 5px 7px 2px grey;
 #photo{
 width: 800px;
 padding: 0px;
-/*margin:auto;*/
+margin:auto;
 display: block;
 position: relative;
 }
 
 .button{
 position: absolute;
-/*margin: auto;*/
+margin: auto;
 display: flex;
 }
 
