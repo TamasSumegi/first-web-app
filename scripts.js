@@ -28,6 +28,9 @@ $("#phototext").text(imagesdata[photoNumber].description);
 loadPhoto(currentPhoto);
 
 $('#button2').click(() => {
+  if (currentPhoto=(imagesdata.length-1)) 
+    {currentphoto = 0;}
+  else {
   currentPhoto++;
-  loadPhoto(currentPhoto);
+  loadPhoto(currentPhoto);}
 })
