@@ -20,10 +20,10 @@ $('#photo').attr('src', imagesdata[currentPhoto].photo);
 $("#photoTitle").text(imagesdata[currentPhoto].title);
 $("#phototext").text(imagesdata[currentPhoto].description);
 
-let loadPhoto = (currentPhoto) => {
-$('#photo').attr('src', imagesdata[currentPhoto].photo);
-$("#photoTitle").text(imagesdata[currentPhoto].title);
-$("#phototext").text(imagesdata[currentPhoto].description);
+let loadPhoto = (photoNumber) => {
+$('#photo').attr('src', imagesdata[photoNumber].photo);
+$("#photoTitle").text(imagesdata[photoNumber].title);
+$("#phototext").text(imagesdata[photoNumber].description);
 }
 loadPhoto(currentPhoto);
 
