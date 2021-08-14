@@ -15,7 +15,7 @@ const imagesdata = [
 {photo:"images/bald-eagle-6481346_640.jpg", title:"Sas", description:"Fehér fejkű halászsas (rétisas)"}
 ];
 
-let currentPhoto = 1;
+let currentPhoto = 0;
 $('#photo').attr('src', imagesdata[currentPhoto].photo);
 $("#photoTitle").text(imagesdata[currentPhoto].title);
 $("#phototext").text(imagesdata[currentPhoto].description);
@@ -48,5 +48,5 @@ $('#button2').click(() => {
 })
 
 imagesdata.forEach((item, index) => {
-  $("#ThumbNailContainer").append(`<div class="box" data-index="${index}" style="background-image: url(imagesdata[index].photo)"></div>`)
+  $("#ThumbNailContainer").append(`<div class="box" data-index="${index}" style="background-image: url(${imagesdata[index].photo})"></div>`)
   })
