@@ -12,7 +12,7 @@ position: relative;
 align-items: center;
 gap: 15px;
 width: 950px;
-margin:auto; 
+margin: auto;
 background: #fbfcff;
 box-sizing: border-box;
 box-shadow: 0px 5px 7px 2px grey;
@@ -69,6 +69,7 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     width: 950px;
+    margin: auto;
   }
 
   .box {
