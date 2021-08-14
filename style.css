@@ -68,7 +68,7 @@ transition: 0.5s;
   #ThumbNailContainer {
     display: flex;
     align-items: center;
-    width: 8000px;
+    width: 800px;
     margin: auto;
   }
 
