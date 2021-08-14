@@ -42,3 +42,11 @@ $('#button2').click(() => {
   {currentPhoto=0}
   loadPhoto(currentPhoto);
 })
+
+imagesdata.foreach((item, index) => {
+  $('#ThumbNailContainer').append(`<div class=box data-index="${index}"></div>`)
+    $('.box').click((event) => {
+      let indexClicked = $(event.target).attr('data-index');
+      let numberIndex = parseInt(indexClicked);
+    })
+  })
