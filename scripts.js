@@ -48,5 +48,5 @@ $('#button2').click(() => {
 })
 
 imagesdata.forEach((item, index) => {
-  $('#ThumbNailContainer').append(`<div class="box" data-index="${index}" style="background-image: url(${imagesData[index].photo});"></div>`)
+  $("#ThumbNailContainer").append(`<div class="box" data-index="${index}" style="background-image: url(imagesdata[index].photo)"></div>`)
   })
