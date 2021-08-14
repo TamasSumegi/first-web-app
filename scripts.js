@@ -44,9 +44,5 @@ $('#button2').click(() => {
 })
 
 imagesdata.foreach((item, index) => {
-  $('#ThumbNailContainer').append(`<div class=box data-index="${index}"></div>`)
-    $('.box').click((event) => {
-      let indexClicked = $(event.target).attr('data-index');
-      let numberIndex = parseInt(indexClicked);
-    })
+  $('#ThumbNailContainer').append(`<div class="box" data-index="${index}"></div>`)
   })
