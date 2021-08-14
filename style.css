@@ -11,7 +11,7 @@ justify-content: space-between;
 position: relative;
 align-items: center;
 gap: 15px;
-width: 900px;
+width: 950px;
 margin: auto;
 background: #fbfcff;
 box-sizing: border-box;
@@ -70,6 +70,7 @@ transition: 0.5s;
     align-items: center;
     width: 800px;
     margin: auto;
+    justify-content: space-between;
   }
 
   .box {
