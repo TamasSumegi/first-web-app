@@ -15,7 +15,7 @@ const imagesdata = [
 {photo:"bald-eagle-6481346_640.jpg", title:"Sas", description:"Fehér fejkű halászsas (rétisas)"}
 ];
 
-var currentPhoto = 0;
+var currentPhoto = 1;
 $('#photo').attr('src', imagesdata[currentPhoto].photo);
 $("#photoTitle").text(imagesdata[currentPhoto].title);
 $("#phototext").text(imagesdata[currentPhoto].description);
